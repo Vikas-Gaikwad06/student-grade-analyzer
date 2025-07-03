@@ -37,7 +37,7 @@ def calsi():
                 print("Thanks for using the calculator.")
                 print("The result history is: ",results)
                 
-                with open("file.java", "w") as file:
+                with open("file.txt", "w") as file:
                     file.write(str(results))
 
                 break
